@@ -28,14 +28,14 @@ pip install -r requirements.txt
 环境变量配置，存放：
 - API Key
 - 模型配置
-<<<<<<< HEAD
 - 私密参数
-- 
-## 文件结构说明
-agent/           — 智能体核心模块，负责多智能体逻辑
-models/           — 大模型调用、配置、接口封装
-prompts/          — 提示词模板、系统指令管理
-main.py          — 项目主入口，启动整个系统
-requirements.txt — 项目依赖包列表
-.env             — 本地环境变量
+
+multi_agent/
+
+agent/           智能体核心模块
+model/           大模型调用与配置
+prompt/          提示词模板管理
+main.py          项目主入口
+requirements.txt  项目依赖包
+.env              本地环境变量（不上传）
 

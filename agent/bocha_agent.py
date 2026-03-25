@@ -6,7 +6,6 @@ from Multi_Agent.models.qwen_model import QwenModel
 load_dotenv()
 
 
-
 class BoChaAgent:
     def __init__(self):
         self.api_key = os.getenv("BOCHA_API_KEY")

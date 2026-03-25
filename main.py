@@ -126,9 +126,6 @@ if __name__ == "__main__":
             answer = chat(q)
             print(f"\n✅ 回答：{answer}")
 
-            # 如需获取领域，只需开启return_domain=True
-            # answer, domain = chat(q, return_domain=True)
-            # print(f"\n✅ 回答：{answer}\n🔖 领域：{domain}")
         elif choice == "2":
             # 流式问答 - 控制台实时打印，最终返回纯文本
             q = input(f"\n请输入问题（示例：{test_general_question[:30]}...）：").strip()

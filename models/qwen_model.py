@@ -10,7 +10,7 @@ class QwenModel:
     def __init__(self, model_name="qwen-plus"):
         """
         初始化 Qwen-Plus 纯文本模型
-        :param model_name: 模型名称，默认 "qwen-plus"（纯文本/多模态通用，此处仅用纯文本）
+        :param model_name: 模型名称，默认 "qwen-plus"
         """
         self.api_key = os.getenv("DASHSCOPE_API_KEY")
         self.model = ChatTongyi(

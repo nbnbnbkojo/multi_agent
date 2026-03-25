@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua
 # 第二步：复制整个项目
 COPY . .
 
-# （可选）设置环境变量，比如端口（如果你的 main.py 用到端口）
+# （可选）设置环境变量
 ENV PORT=8080
 
 # （可选）声明暴露端口（仅声明，运行时需用 -p 映射）
